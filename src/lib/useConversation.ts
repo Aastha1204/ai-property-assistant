@@ -10,13 +10,22 @@ const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 let seq = 0;
 const mid = () => `m${++seq}`;
 
+export const SYNC_KEY = "apa-demo-state";
+export interface SyncState {
+  lead: Lead;
+  flags: Flags;
+  lastTurn: TurnJSON | null;
+  hot: HotAlert | null;
+  ts: number;
+}
+
 export interface HotAlert {
   text: string;
   phone: string;
 }
 export type Mode = "idle" | "demo" | "live";
 
-export function useConversation() {
+export function useConversation(opts?: { sync?: boolean; room?: string | null }) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [lead, setLeadState] = useState<Lead>(EMPTY_LEAD);
   const [flags, setFlagsState] = useState<Flags>(INITIAL_FLAGS);
@@ -181,6 +190,24 @@ export function useConversation() {
       setMode("idle");
     }
   }, [reset, push, commit]);
+
+  // Share state with the owner page (another tab/window in the same browser).
+  useEffect(() => {
+    if (!opts?.sync) return;
+    try {
+      const snap: SyncState = { lead, flags, lastTurn, hot, ts: Date.now() };
+      localStorage.setItem(SYNC_KEY, JSON.stringify(snap));
+    } catch {
+      /* storage unavailable */
+    }
+    if (opts.room) {
+      fetch("/api/demo-sync", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ room: opts.room, state: { lead, flags, lastTurn, hot, ts: Date.now() } }),
+      }).catch(() => {});
+    }
+  }, [lead, flags, lastTurn, hot, opts?.sync, opts?.room]);
 
   const analysis = useMemo(() => analyze(lead, flags), [lead, flags]);
   const stop = useCallback(() => reset(), [reset]);

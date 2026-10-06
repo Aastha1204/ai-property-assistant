@@ -95,3 +95,10 @@ export async function saveListings(list: Listing[]) {
   await set("listings", JSON.stringify(list));
   registerAreas(Array.from(new Set(list.map((l) => l.area))));
 }
+
+/** Short-lived generic keys (demo sync rooms). */
+export async function kvSet(key: string, value: string, ttlSec: number) {
+  if (persistent) await redis(["SET", key, value, "EX", ttlSec]);
+  else mem.kv.set(key, value);
+}
+export const kvGet = get;
