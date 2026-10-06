@@ -1,0 +1,49 @@
+[
+  {
+    "from": "customer",
+    "text": "Hi, main Rahul. 2BHK chahiye Thane mein, budget 1.2 cr",
+    "extracted": { "name": "Rahul", "bhk": 2, "location": "Thane", "budget": 12000000 }
+  },
+  {
+    "from": "assistant",
+    "text": "Namaste Rahul! 😊 Noted: 2BHK, Thane, ₹1.2 Cr 👍\nYe self-use ke liye hai ya investment ke liye?"
+  },
+  {
+    "from": "customer",
+    "text": "Self-use, family ke liye",
+    "extracted": { "purpose": "self-use" }
+  },
+  {
+    "from": "assistant",
+    "text": "Great! Possession kab tak chahiye? (jaise 2 mahine mein)"
+  },
+  {
+    "from": "customer",
+    "text": "2 mahine mein shift hona hai",
+    "extracted": { "timelineMonths": 2 }
+  },
+  {
+    "from": "assistant",
+    "text": "Samajh gaya 👍 Home loan chahiye? Pre-approved hai ya cash payment?"
+  },
+  {
+    "from": "customer",
+    "text": "Haan loan chahiye, HDFC se pre-approved hai",
+    "extracted": { "loan": "pre-approved" }
+  },
+  {
+    "from": "assistant",
+    "text": "Perfect! Ye rahe aapke top 3 options 👇 Free site visit ke liye slot chuniye:",
+    "showMatches": true
+  },
+  {
+    "from": "customer",
+    "text": "Sat 11 AM chalega",
+    "extracted": { "visitSlot": "@slot0" }
+  },
+  {
+    "from": "assistant",
+    "text": "Done ✅ {{slot0}} ko site visit confirm. {{owner}} khud aapko property dikhayenge. Location WhatsApp pe bhej denge 🙌",
+    "confirm": true
+  }
+]

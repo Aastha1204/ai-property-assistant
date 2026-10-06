@@ -1,0 +1,31 @@
+[
+  { "id": "TH-01", "title": "Lakeside Residency", "area": "Thane", "bhk": 2, "type": "sale", "price": 11200000, "carpet": 645, "possession": "Ready", "highlight": "Garden-facing, 10 min from Thane station" },
+  { "id": "TH-02", "title": "Orchid Heights", "area": "Thane", "bhk": 2, "type": "sale", "price": 11800000, "carpet": 680, "possession": "2026-12-15", "highlight": "Clubhouse and podium garden" },
+  { "id": "TH-03", "title": "Silver Oak Towers", "area": "Thane", "bhk": 2, "type": "sale", "price": 10500000, "carpet": 610, "possession": "Ready", "highlight": "Well-kept resale, two schools nearby" },
+  { "id": "TH-04", "title": "Kasarvadavali Greens", "area": "Thane", "bhk": 3, "type": "sale", "price": 18500000, "carpet": 940, "possession": "2027-08-30", "highlight": "Spacious 3BHK near the upcoming metro" },
+  { "id": "TH-05", "title": "Panchpakhadi Nest", "area": "Thane", "bhk": 1, "type": "rent", "price": 24000, "carpet": 450, "possession": "Ready", "highlight": "Semi-furnished, family preferred" },
+
+  { "id": "MU-01", "title": "Nahur Pearl", "area": "Mulund", "bhk": 1, "type": "sale", "price": 7800000, "carpet": 410, "possession": "Ready", "highlight": "Compact 1BHK, 8 min walk to station" },
+  { "id": "MU-02", "title": "Mulund West Crest", "area": "Mulund", "bhk": 2, "type": "sale", "price": 14500000, "carpet": 700, "possession": "2027-03-31", "highlight": "Under-construction, gym and kids play area" },
+  { "id": "MU-03", "title": "Sarvodaya Enclave", "area": "Mulund", "bhk": 2, "type": "sale", "price": 13200000, "carpet": 665, "possession": "Ready", "highlight": "Quiet lane, covered parking included" },
+  { "id": "MU-04", "title": "Vaishali Court", "area": "Mulund", "bhk": 3, "type": "sale", "price": 21500000, "carpet": 980, "possession": "Ready", "highlight": "Top-floor 3BHK with open views" },
+  { "id": "MU-05", "title": "Mulund Gardens", "area": "Mulund", "bhk": 1, "type": "rent", "price": 28000, "carpet": 430, "possession": "Ready", "highlight": "Fully furnished, 24x7 security" },
+
+  { "id": "GH-01", "title": "Rajawadi Sky", "area": "Ghatkopar", "bhk": 1, "type": "sale", "price": 9500000, "carpet": 400, "possession": "Ready", "highlight": "Near metro, good rental demand" },
+  { "id": "GH-02", "title": "Pant Nagar Heights", "area": "Ghatkopar", "bhk": 2, "type": "sale", "price": 17800000, "carpet": 620, "possession": "2026-11-30", "highlight": "New building, possession in about 2 months" },
+  { "id": "GH-03", "title": "Laxmi Baug Residency", "area": "Ghatkopar", "bhk": 2, "type": "rent", "price": 45000, "carpet": 640, "possession": "Ready", "highlight": "Bright corner flat, lift and parking" },
+  { "id": "GH-04", "title": "Ghatkopar East Elite", "area": "Ghatkopar", "bhk": 3, "type": "sale", "price": 29000000, "carpet": 1010, "possession": "2027-06-30", "highlight": "Premium amenities, sea-breeze side" },
+  { "id": "GH-05", "title": "Vidyavihar Court", "area": "Ghatkopar", "bhk": 1, "type": "sale", "price": 8900000, "carpet": 380, "possession": "Ready", "highlight": "Resale, walkable to Vidyavihar station" },
+
+  { "id": "PO-01", "title": "Lakefront Towers", "area": "Powai", "bhk": 2, "type": "sale", "price": 26500000, "carpet": 840, "possession": "Ready", "highlight": "Lake-view balcony, gated township" },
+  { "id": "PO-02", "title": "Chandivali Gardens", "area": "Powai", "bhk": 1, "type": "sale", "price": 14800000, "carpet": 520, "possession": "Ready", "highlight": "Close to IT parks, low maintenance" },
+  { "id": "PO-03", "title": "Powai Lake View Residences", "area": "Powai", "bhk": 3, "type": "sale", "price": 42000000, "carpet": 1250, "possession": "2027-09-30", "highlight": "Luxury 3BHK, concierge and pool" },
+  { "id": "PO-04", "title": "Saki Vihar Heights", "area": "Powai", "bhk": 2, "type": "rent", "price": 58000, "carpet": 780, "possession": "Ready", "highlight": "Semi-furnished, popular with IT professionals" },
+  { "id": "PO-05", "title": "Tunga Orchid", "area": "Powai", "bhk": 1, "type": "rent", "price": 36000, "carpet": 500, "possession": "Ready", "highlight": "Furnished studio-style 1BHK" },
+
+  { "id": "KA-01", "title": "Kalyan West Meadows", "area": "Kalyan", "bhk": 1, "type": "sale", "price": 4200000, "carpet": 380, "possession": "Ready", "highlight": "Affordable first home, near station" },
+  { "id": "KA-02", "title": "Murbad Road Residency", "area": "Kalyan", "bhk": 2, "type": "sale", "price": 6800000, "carpet": 590, "possession": "2026-12-31", "highlight": "New launch, flexible payment plan" },
+  { "id": "KA-03", "title": "Shahad Greens", "area": "Kalyan", "bhk": 2, "type": "sale", "price": 7400000, "carpet": 620, "possession": "Ready", "highlight": "Green campus, school bus pickup" },
+  { "id": "KA-04", "title": "Adharwadi Park", "area": "Kalyan", "bhk": 3, "type": "sale", "price": 9800000, "carpet": 850, "possession": "2027-04-30", "highlight": "Large 3BHK at an entry-level price" },
+  { "id": "KA-05", "title": "Kalyan Station Square", "area": "Kalyan", "bhk": 2, "type": "rent", "price": 16000, "carpet": 560, "possession": "Ready", "highlight": "5 min from station, family-friendly" }
+]

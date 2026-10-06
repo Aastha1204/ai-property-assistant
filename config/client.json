@@ -1,0 +1,59 @@
+{
+  "businessName": "Sai Krupa Realty",
+  "logoText": "SK",
+  "tagline": "Homes across Thane & Mumbai suburbs",
+  "primaryColor": "#0E7C66",
+  "city": "Mumbai / Thane",
+  "area": "Thane, Mulund, Ghatkopar, Powai, Kalyan",
+  "ownerName": "Vikram Deshmukh",
+  "ownerPhone": "+91 98200 11223",
+  "assistantName": "Riya",
+  "languageMix": ["English", "Hindi", "Hinglish"],
+  "demoCustomer": { "phone": "+91 98765 43210" },
+  "demoLabel": "Demo – sample data",
+  "greeting": "Hi! 👋 Welcome to {{business}}. Tell me what kind of home you're looking for — e.g. \"2BHK Thane mein, budget 1.2 cr\". English, Hindi ya Hinglish, jo aapko theek lage 😊",
+  "areaAliases": {
+    "thane": "Thane", "thana": "Thane", "ठाणे": "Thane",
+    "mulund": "Mulund", "मुलुंड": "Mulund",
+    "ghatkopar": "Ghatkopar", "घाटकोपर": "Ghatkopar",
+    "powai": "Powai", "पवई": "Powai",
+    "kalyan": "Kalyan", "कल्याण": "Kalyan"
+  },
+  "visitSlots": ["Sat 11:00 AM", "Sat 4:00 PM", "Sun 10:30 AM"],
+  "summary": {
+    "timeToFirstReply": "4 sec",
+    "capturedLine": "Lead captured without staff"
+  },
+  "followUp": {
+    "en": "Hi {{name}}, this is {{business}}. Still looking for {{interest}}? I can hold a site visit slot for you this weekend — just reply YES 🏡",
+    "hinglish": "Hi {{name}}, {{business}} se. {{interest}} abhi bhi dekh rahe hain? Is weekend ke liye site visit slot hold kar sakte hain — bas YES likh dijiye 🏡",
+    "hi": "नमस्ते {{name}}, {{business}} की ओर से। क्या आप अब भी {{interest}} देख रहे हैं? इस वीकेंड के लिए साइट विज़िट स्लॉट रोक सकते हैं — बस YES लिखिए 🏡"
+  },
+  "knowledgeBase": [
+    {
+      "topic": "brokerage",
+      "keywords": ["brokerage", "commission", "broker fee", "charges", "fees", "dalali"],
+      "answer": "Brokerage is 1% on purchases and 15 days' rent on rentals. Browsing and site visits are free."
+    },
+    {
+      "topic": "rera",
+      "keywords": ["rera", "registered", "legal", "clear title", "documents"],
+      "answer": "All our sale listings are RERA-registered projects. We share the RERA number before the site visit."
+    },
+    {
+      "topic": "site visit",
+      "keywords": ["site visit", "visit", "see the flat", "dekhne", "dekhna"],
+      "answer": "Site visits are free and a team member accompanies you. Slots are on Saturdays and Sundays."
+    },
+    {
+      "topic": "home loan",
+      "keywords": ["home loan", "loan help", "bank", "emi", "eligibility"],
+      "answer": "We help with home loan paperwork and a free eligibility check through our partner banks."
+    },
+    {
+      "topic": "office hours",
+      "keywords": ["office", "timing", "hours", "open", "address"],
+      "answer": "Our office is open Monday to Saturday, 10 AM to 7 PM."
+    }
+  ]
+}

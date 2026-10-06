@@ -1,0 +1,7 @@
+[
+  { "id": "L-1041", "name": "Priya Nair", "interest": "1BHK Mulund · ₹78 L", "score": 82, "status": "Hot", "lastActive": "12 min ago", "lang": "en", "followUpIn": "Visit booked Sun 10:30 AM" },
+  { "id": "L-1040", "name": "Amit Shah", "interest": "3BHK Powai · ₹2.9 Cr", "score": 46, "status": "Follow-up due", "lastActive": "26 h ago", "lang": "en", "followUpIn": "Due now" },
+  { "id": "L-1039", "name": "Sneha Kulkarni", "interest": "2BHK Kalyan · ₹70 L", "score": 58, "status": "Follow-up due", "lastActive": "1 day ago", "lang": "hinglish", "followUpIn": "Due now" },
+  { "id": "L-1038", "name": "Imran Qureshi", "interest": "2BHK rent Ghatkopar · ₹45k/mo", "score": 31, "status": "New", "lastActive": "3 h ago", "lang": "hinglish", "followUpIn": "In 21 h" },
+  { "id": "L-1037", "name": "Meera Joshi", "interest": "1BHK Thane · ₹65 L", "score": 24, "status": "New", "lastActive": "5 h ago", "lang": "hi", "followUpIn": "In 19 h" }
+]
